@@ -11,6 +11,9 @@
 
 (function() {
     const style = document.createElement('style');
-    style.innerHTML = "#col_navbar_holder { display: none !important; }";
+    style.innerHTML = `
+         #col_navbar_holder { display: none !important; }
+         #bs-example-navbar-collapse-alliance { display: none !important; }
+     `;
     document.head.appendChild(style);
 })();
